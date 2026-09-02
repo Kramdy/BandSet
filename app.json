@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "BandSet",
+    "slug": "bandset",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "bandset",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-asset",
+      "expo-audio",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.anonymous.bandset"
+    }
+  }
+}
